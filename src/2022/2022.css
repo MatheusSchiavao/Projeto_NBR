@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Aref Ruqaa Ink", serif;
+}
+
+div {
+  justify-content: space-around;
+  position: relative;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.go-back {
+  margin-top: 10px;
+  padding-left: 20px;
+  height: 4rem;
+  width: 7rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 20px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../assets/images/nr.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../slideshow/slideshow.css" />
+    <title>Anos</title>
+  </head>
+
+  <body>
+    <section id="port">
+      <div class="container">
+        <input type="radio" name="slider" id="item-1" checked />
+        <input type="radio" name="slider" id="item-2" />
+        <input type="radio" name="slider" id="item-3" />
+        <input type="radio" name="slider" id="item-4" />
+        <div class="cards">
+          <h2 class="title_proj">Ufa, você Chegou!</h2>
+          <h1 class="title_proj">Clique e descubra!</h1>
+          <label class="card" for="item-1" id="song-1">
+            <img src="../assets/images/2019.png" alt="" />
+            <button>
+              <a href="../2021/2021.html">Acesse</a>
+            </button>
+          </label>
+          <label class="card" for="item-2" id="song-2">
+            <img src="../assets/images/2020.png" alt="" />
+            <button>
+              <a href="../2022/2022.html">Acesse</a>
+            </button>
+          </label>
+          <label class="card" for="item-3" id="song-3">
+            <img src="../assets/images/2021.png" alt="" />
+            <button>
+              <a href="../2019/2019.html">Acesse</a>
+            </button>
+          </label>
+          <label class="card" for="item-4" id="song-4">
+            <img src="../assets/images/2022.png" alt="" />
+            <button onclick="alertaPandemia()">Acesse</button>
+          </label>
+        </div>
+      </div>
+    </section>
+    <script>
+      function alertaPandemia() {
+        alert("Pandemia! \nNão nos encontramos :(");
+      }
+    </script>
+  </body>
+</html>
